@@ -1,0 +1,250 @@
+.lbody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    background: #1A2;
+    box-sizing: border-box;
+}
+
+.Ubody{
+    display: flex;
+    flex-direction: column;
+    background: #1A2;
+}
+
+header{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+legend{
+    font-weight: 600;
+    font-size: 30px;
+}
+span,a{
+    font-weight: 600;
+}
+
+hr{
+    width: 90%;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 28%;
+   
+}
+
+input,select{
+    width: 100%;
+    height:35px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+   box-shadow: 5px 5px black;
+   cursor: pointer;
+}
+
+button{
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+   box-shadow: 5px 5px black;
+   cursor: pointer;
+   background: rgb(0, 102, 255);
+   color: #fff;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    gap: 10px;
+    width: 100%;
+}
+
+.second{
+    width: 100%;
+}
+
+.third{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+.third .upload{
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    outline: 1.5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+.upload input{
+    border: none;
+    box-shadow: none;
+}
+.upload span{
+    width: 50%;
+}
+
+.third .role{
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    outline: 1.5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 15px;
+    box-sizing: border-box;
+    gap: 15px;
+}
+
+.role span{
+    width: fit-content;
+   
+    margin-left: -30px;
+}
+
+.role select{
+    width: 50%;
+    margin-left: 0;
+   
+}
+
+.fourth{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    flex-direction: column;
+    gap: 3px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btm{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+   width: 50%;
+ gap: 20px;
+
+    
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left .img img{
+    width: 35%;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  
+}
+
+.content div{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+}
+
+.content div input{
+    width: 50%;
+    box-shadow: none;
+    background: transparent;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+  justify-content: space-evenly;
+
+   width:50%;
+    height: 80vh;
+}
+
+.right .sign img{
+    width: 15%;
+    margin-bottom: 5%;
+    border: 1px solid black;
+    padding: 50px;
+   
+}
+
+.right .all{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    
+    width: 50%;
+    height: 80vh;
+    flex-direction: column;
+   
+   
+}
+
+.all form{
+    width: 100%;
+    margin-bottom: 3px;
+}
+.all div{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+}
+
+.all input{
+    width: 50%;
+    box-shadow: none;
+    background: transparent;
+}
+
+.right .sign{
+    display: flex;
+    align-items:center;
+    justify-content:start;
+    flex-direction: column;
+ 
+    width: 50%;
+    height: 80vh;
+}
+
+.logout a{
+    text-decoration: none;
+    color: white;
+}
